@@ -1,0 +1,22 @@
+.flexContainer{
+    display:flex;
+    justify-content: center;
+    background-color: steelblue;
+    padding: 0;
+}
+.mainBox{
+    display:inline-flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border-style: solid;
+    border-color: red;
+    width: 1000px;
+    height: 100em;
+}
+.banner{
+    align-self: center;
+    display: grid;
+    position: absolute;
+    max-width: 35%;
+    background-color: black;
+}
